@@ -2,6 +2,14 @@
 ## Movie_App_2020
 React JS Fundamentals Course (2020 Update!)
 
+## 10월 07일
+>1. props의 타입을 체크하기 위해 propTypes를 사용한다.
+>2. isRequired의 의미와 사용법을 알 수 있다. 
+>3. React 컴포넌트 class를 정의하려면 React.Component를 상속 받아야 한다.
+>4. render()는 React.Component의 하위 class에서 반드시 정의 해야하는 메소드다.
+>5. button을 생성하고 button에 함수를 추가할 수 있다.
+>6. setState() 함수를 통해 컴포넌트의 state 객체에 대한 업데이트를 실행한다.
+
 ## 09월 25일
 >1. map()함수를 통해 배열을 만들수 있다.
 >2. react에서 이미지를 삽입할때 import를 통해 이미지를 불러온다.
@@ -20,5 +28,3 @@ React JS Fundamentals Course (2020 Update!)
 ## 09월11일
 >1. Dothome에 index file 수정하기.
 >2. readme.md 수정 후 Github에 push하기.
-
-*9월 16일까지.
