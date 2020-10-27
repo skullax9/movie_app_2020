@@ -2,6 +2,12 @@
 ## Movie_App_2020
 React JS Fundamentals Course (2020 Update!)
 
+## 10월 14일
+>1. state함수는 동적 데이터를 다룰때 사용한다.
+>2. state는 객체 형태의 데이터다.
+>3. 클래스형 컴포넌트가 되려면 컴포넌트 클래스를 상속받아야 한다.
+>4. render함수를 통해 JSX반환을 할 수 있다.
+
 ## 10월 07일
 >1. props의 타입을 체크하기 위해 propTypes를 사용한다.
 >2. isRequired의 의미와 사용법을 알 수 있다. 
