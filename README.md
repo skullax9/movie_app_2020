@@ -2,6 +2,11 @@
 ## Movie_App_2020
 React JS Fundamentals Course (2020 Update!)
 
+## 11월 06일
+>1. HTML의 class와 리액트의 class가 이름이 겹치지 않도록 작성한다.
+>2. alt와 title을 추가하여 그림에 설명을 넣을 수 있다.
+>3. import를 통해 css파일을 파일에 포함시킬 수 있다.
+
 ## 10월 30일
 >1. propTypes를 통해 API에서 필요한 정보를 불러올 수 있다.
 >2. Parameter를 통해 API를 정렬할 수 있다.
