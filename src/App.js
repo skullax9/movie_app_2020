@@ -1,32 +1,36 @@
 import React from 'react';
+import axios from 'axios';
 
-class App extends React.Component{
+class App extends React.Component {
   state = {
-    count: 0
+    isLoading: true,
+    movies: [],
+  };
+
+  getMovies = async () => {
+    const {
+      data: {
+        data: { movies }
+      }
+    } = await axios.get(`https://yts.mx/api/v2/list_movies.json?sort_by=rating`);
+    this.setState({isLoading: false});
+    this.setState({movies, isLoading: false});
+    console.log(this.state.movies);
   }
 
-  add = () => {
-    this.setState(current => ({
-      count: current.count +1
-    }));
+  componentDidMount() {
+    this.getMovies();
   }
-
-  minus = () => {
-    this.setState(current => ({
-      count: current.count -1
-    }));
-  }
-
 
   render() {
+    const { isLoading,movies } = this.state;
     return (
-    <div>
-    <h1>The number is: {this.state.count} </h1>
-    <button onClick={this.add}>Add</button>
-    <button onClick={this.minus}>Minus</button>
-    </div>
+      <div>
+        <h1>{isLoading ? 'Loading...' : movies.map()}</h1>
+      </div>
     );
   }
 }
 
 export default App;
+

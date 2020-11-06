@@ -2,6 +2,10 @@
 ## Movie_App_2020
 React JS Fundamentals Course (2020 Update!)
 
+## 10월 30일
+>1. propTypes를 통해 API에서 필요한 정보를 불러올 수 있다.
+>2. Parameter를 통해 API를 정렬할 수 있다.
+
 ## 10월 16일
 >1. state는 동적 데이터를 다룰 때 사용한다.
 >2. 클래스형 컴포넌트가 되려면 Component 클래스를 반드시 상속받아야 한다.
