@@ -2,6 +2,11 @@
 ## Movie_App_2020
 React JS Fundamentals Course (2020 Update!)
 
+## 11월 13일
+>1. map()함수는 2번째 매개변수를 지정시, index값을 반환해준다.
+>2. router 패키지를 통해 화면이동이 가능하다.
+>3. exact props를 통해 Route 컴포넌트가 path props와 정확히 일치하는 url에 반응하도록 한다.
+
 ## 11월 06일
 >1. HTML의 class와 리액트의 class가 이름이 겹치지 않도록 작성한다.
 >2. alt와 title을 추가하여 그림에 설명을 넣을 수 있다.
