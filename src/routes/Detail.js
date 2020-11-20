@@ -10,19 +10,19 @@ class Detail extends React.Component {
         }
     }
 
-    render() {
+    render(rating) {
         const { location } = this.props;
         if (location.state) {
         return (
         <div className="detail-container">
-        <span>
+        <span>201
             <center>
             <img src={location.state.poster} alt={location.state.title}/><br/>
             </center>
             {location.state.title}  
         </span>
         <span>
-        recommendation: {location.state.rating}<br/>
+        recommendation: ({location.state.rating/2}/5)<br/>
         {location.state.genres} {location.state.year}<br/><br/>
         {location.state.summary}<br/>
         </span>
