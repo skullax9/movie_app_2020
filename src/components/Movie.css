@@ -27,6 +27,7 @@
 } 
 
 .movie .movie-title,
+.movie .movie-rating,
 .movie .movie-year {
     margin: 0;
     font-weight: 300;

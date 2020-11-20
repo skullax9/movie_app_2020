@@ -2,6 +2,10 @@
 ## Movie_App_2020
 React JS Fundamentals Course (2020 Update!)
 
+## 11월 20일
+>1. Link 컴포넌트의 pathname은 URL을 의미한다.
+>2. route props의 history 키를 사용하여 리다이렉트 기능을 구현할 수 있다.
+
 ## 11월 13일
 >1. map()함수는 2번째 매개변수를 지정시, index값을 반환해준다.
 >2. router 패키지를 통해 화면이동이 가능하다.
