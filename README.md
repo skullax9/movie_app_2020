@@ -2,6 +2,30 @@
 ## Movie_App_2020
 React JS Fundamentals Course (2020 Update!)
 
+## 11월 27일
+>1. React 컴포넌트에서 데이터를 화면에 반환하는 역할을 하는 render() 메소드가 필요하다.
+>2. 컴포넌트로 전달된 데이터는 this.props를 통해 접근이 가능하다
+>3. 내부적인 상태 데이터도 this.state로 접근할 수 있다.
+>4. 컴포넌트의 상태 데이터가 바뀌면 render() 메소드가 재호출되어 갱신된다.
+
+## 11월 20일
+>1. Link 컴포넌트의 pathname은 URL을 의미한다.
+>2. route props의 history 키를 사용하여 리다이렉트 기능을 구현할 수 있다.
+
+## 11월 13일
+>1. map()함수는 2번째 매개변수를 지정시, index값을 반환해준다.
+>2. router 패키지를 통해 화면이동이 가능하다.
+>3. exact props를 통해 Route 컴포넌트가 path props와 정확히 일치하는 url에 반응하도록 한다.
+
+## 11월 06일
+>1. HTML의 class와 리액트의 class가 이름이 겹치지 않도록 작성한다.
+>2. alt와 title을 추가하여 그림에 설명을 넣을 수 있다.
+>3. import를 통해 css파일을 파일에 포함시킬 수 있다.
+
+## 10월 30일
+>1. propTypes를 통해 API에서 필요한 정보를 불러올 수 있다.
+>2. Parameter를 통해 API를 정렬할 수 있다.
+
 ## 10월 16일
 >1. state는 동적 데이터를 다룰 때 사용한다.
 >2. 클래스형 컴포넌트가 되려면 Component 클래스를 반드시 상속받아야 한다.
