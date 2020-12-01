@@ -2,6 +2,11 @@
 ## Movie_App_2020
 React JS Fundamentals Course (2020 Update!)
 
+## 12월 01일
+>1. handleChange로 state 값을 갱신할 수 있다.
+>2. map() 함수를 통해 배열을 반복 실행할 수 있다.
+>3. React에서 Key의 역할
+
 ## 11월 27일
 >1. React 컴포넌트에서 데이터를 화면에 반환하는 역할을 하는 render() 메소드가 필요하다.
 >2. 컴포넌트로 전달된 데이터는 this.props를 통해 접근이 가능하다
