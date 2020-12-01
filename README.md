@@ -8,6 +8,7 @@ React JS Fundamentals Course (2020 Update!)
 >3. 내부적인 상태 데이터도 this.state로 접근할 수 있다.
 >4. 컴포넌트의 상태 데이터가 바뀌면 render() 메소드가 재호출되어 갱신된다.
 
+
 ## 11월 20일
 >1. Link 컴포넌트의 pathname은 URL을 의미한다.
 >2. route props의 history 키를 사용하여 리다이렉트 기능을 구현할 수 있다.
